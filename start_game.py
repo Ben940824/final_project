@@ -32,4 +32,7 @@ for i in range(100):
 
 # game_result = start_poker(config, verbose=0)
 
-print(json.dumps(game_result, indent=4))
+# print(json.dumps(game_result, indent=4))
+
+print(f"p1 wins: {p1_wins}, p2 wins: {p2_wins}")
+print(f"p1 win rate: {p1_wins / 100:.2%}, p2 win rate: {p2_wins / 100:.2%}")
