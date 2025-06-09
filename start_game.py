@@ -22,6 +22,6 @@ for i in range(100):
 
 ## Play in interactive mode if uncomment
 #config.register_player(name="me", algorithm=console_ai())
-game_result = start_poker(config, verbose=1)
+game_result = start_poker(config, verbose=0)
 
 print(json.dumps(game_result, indent=4))
